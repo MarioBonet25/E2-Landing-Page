@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+/*  color para el Background
+    color numero 1: #07C8F9
+    color numero 2: #0D41E1
+*/
+body{
+    
+    display: flex;
+}
+
+#HeaderFixed {
+    display: flex;
+    position:fixed;
+    background-color: #07C8F9;
+    width: 100%;
+    height: 7vh;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding-left: 0.3rem;
+}
+
+#HeaderFixed h1{
+    display: flex;
+    font-size: calc(100%);
+}
+
+#HeaderFixed Picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+}
+
+#HeaderFixed Picture img{
+    height: 100%;
+    object-fit: cover;
+}
+#HeaderFixed nav{
+    display:flex;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding: 1rem;
+}
+#HeaderFixed nav ul{
+    display:flex;
+    gap: 1rem;;
+}
+#HeaderFixed nav ul li{
+    display:flex;
+    
+}
+#HeaderFixed nav ul li a {
+    display: flex;
+    color: black;
+}
+#HeaderFixed form{
+    display:flex;
+    background-color: transparent;
+}
+#HeaderFixed form button{
+    background-color: transparent;
+    display:flex;
+    justify-content: center;
+    width: 5vw;
+    height: 5vh;
+}
+
+#HeaderFixed form button img {
+    display: flex;
+    justify-content: center;
+    width: 2vw;
+    height: 5vh;
+}
